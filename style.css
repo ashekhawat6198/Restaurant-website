@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,400;0,500;1,100;1,200;1,400&family=Russo+One&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Russo One", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.logo-left {
+  height: 76px;
+  width: 76px;
+}
+
+.nav-left-content {
+  color: #149f39;
+  font-size: 24px;
+  padding-top: 30px;
+  font-weight: 400;
+  line-height: 19px;
+  word-wrap: break-word;
+}
+.caps {
+  color: #149f39;
+  font-size: 48px;
+
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.logo-right {
+  padding-top: 23px;
+}
+
+
+
+/* HERO  SECTION */
+
+.hero-section{
+    display: flex;
+    margin-top: 50px;
+}
+
+.hero-section-left{
+    width: 50%;
+}
+
+.herosection-left-img{
+    width: 512px;
+    height: 514px;
+}
+
+.hero-section-right{
+    width: 50%;
+}
