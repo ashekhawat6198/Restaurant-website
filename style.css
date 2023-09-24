@@ -213,7 +213,7 @@
   margin-top: 2rem;
   color: black;
   font-size: 36px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
@@ -258,4 +258,87 @@
   width: 279px;
   height: 581px;
   margin-left: -3px;
+}
+
+
+
+.footer{
+   margin-top: 10rem;
+  background-color: #FFF0DB;
+  
+}
+
+.container-1{
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 7rem;
+  /* margin-top: 10rem; */
+  margin-left: 16rem;
+  padding-bottom: 8rem;
+}
+
+.footer-part-1{
+  display: flex;
+  align-items: center;
+  margin-top:1rem;
+}
+
+.footer-part-2{
+  margin-top: 5rem;
+
+}
+
+.footer-part-3{
+  margin-top: 5rem;
+}
+
+.footer-part-4{
+  margin-top: 5rem;
+}
+
+
+.container-1 h2{
+  color: #565656;
+font-size: 18px;
+font-family: "Roboto", sans-serif;
+font-weight: 600;
+line-height: 19px;
+}
+
+.heading-4 h4{
+  color: black;
+font-size: 14px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+line-height: 19px;
+padding-top: 8px;
+}
+
+.heading-4{
+  margin-top: 18px;
+  
+}
+
+.footer-input{
+  width: 265px;
+  height: 24px;
+  color: black;
+  margin-top: 18px;
+font-size: 12px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+line-height: 19px;
+padding-left: 3px;
+}
+
+.socialmedia-logo{
+  margin-top: 18px;
+  
+}
+
+.footer-logos{
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 22px;
 }
